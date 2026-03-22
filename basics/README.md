@@ -1,1 +1,1 @@
-a script for displaying the content list of  current directory
+a script for changing to home directory
