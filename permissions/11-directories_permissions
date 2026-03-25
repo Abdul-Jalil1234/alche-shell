@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -R a+X
+pth 1 -type d -exec chmod a+x {} +
