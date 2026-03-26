@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "" | tr 'Ac' 'Ze'
+echo "The brown Ant fell into the Zebra cop" | tr 'Ac' 'Ze'
