@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "%s\n" $(cut -c1 file.txt | tr -d '\n')
+cut -c 1 | paste -s -d ''
