@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -e '#!/bin/bash\nprintf "%s\n" {a..n}{a..z} o{a..n} o{p..z} {p..z}{a..z}' > 12-combinations
+printf "%s\n" {a..n}{a..z} o{a..n} o{p..z} {p..z}{a..z}
