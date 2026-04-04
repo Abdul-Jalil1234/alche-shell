@@ -1,2 +1,2 @@
 #!/bin/bash
-echo 'printf "%s\n" {a..z}{a..z} | grep -v ^oo$' > 12-combinations
+echo -e '#!/bin/bash\nprintf "%s\n" {a..n}{a..z} o{a..n} o{p..z} {p..z}{a..z}' > 12-combinations
