@@ -1,2 +1,2 @@
 #!/bin/bash
-paste -d '\n' - - | grep .
+paste - - | cut -f1
