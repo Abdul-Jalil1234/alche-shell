@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 i=0
+#Write a Bash script that displays Best School 10 times.
 until [ "$i" -gt 9 ]; do
 echo "Best School"
 ((i++))
