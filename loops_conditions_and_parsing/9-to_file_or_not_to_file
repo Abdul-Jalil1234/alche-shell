@@ -1,0 +1,27 @@
+#!/usr/bin/env bash
+# This script checks the status and properties of a file named 'school'
+
+FILE="school"
+
+# Check if the file exists using the -e operator
+if [ -e "$FILE" ]
+then
+    echo "school file exists"
+
+    # If it exists, check if it is empty using the -s operator
+    # -s returns true if the file exists and has a size greater than zero
+    if [ -s "$FILE" ]
+    then
+        echo "school file is not empty"
+    else
+        echo "school file is empty"
+    fi
+
+    # Check if it is a regular file using the -f operator
+    if [ -f "$FILE" ]
+    then
+        echo "school is a regular file"
+    fi
+else
+    echo "school file does not exist"
+fi
