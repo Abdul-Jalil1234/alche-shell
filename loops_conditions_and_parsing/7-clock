@@ -1,17 +1,18 @@
 #!/usr/bin/env bash
-# This script displays hours 0-12 and minutes 1-59 using while loops
+# This script displays hours and minutes in the exact required format
 
 hour=0
-
 while [ $hour -le 12 ]
 do
-	echo "Hour: $hour"
+    # This must be OUTSIDE the minute loop
+    echo "Hour: $hour"
+    
     minute=1
     while [ $minute -le 59 ]
     do
-	echo "$minute"
+        echo "$minute"
         ((minute++))
     done
+    
     ((hour++))
 done
-
